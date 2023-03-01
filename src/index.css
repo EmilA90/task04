@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card {display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;    
+        background-color: rgb(1, 1, 1);
+        color: white;
+        margin-top: 40px;
+}
+
+.scard {
+    width: 400px;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.wrapper {
+  background-color: rgb(0, 0, 0);
+}
+
+.search input[type="text"] {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 100%;
+}
+
+.search input[type="text"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+
+.add-to-list {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.add-to-list:hover {
+  background-color: #0069d9;
+}
+
+.scard {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.scard img {
+  width: 100%;
+  height: auto;
+}
+
+.scard h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.scard .add-to-list {
+  margin-top: auto;
+} 
+
+.wrapper{
+  width: 100%;
+}
+
+
+.list {
+  color: white
+}
